@@ -525,11 +525,11 @@ img {
   padding-bottom: 160px;
 }
 .hero__container {
+  padding: 0 165px;
   background-image: url("../images/hero-Bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 153px;
-  padding: 0 165px;
 }
 .hero__heading {
   width: 500px;
@@ -541,7 +541,7 @@ img {
   letter-spacing: -2.5px;
   color: #FFFFFF;
 }
-.hero__desc {
+.hero__paragraph {
   width: 405px;
   margin: 0;
   margin-left: 90px;
@@ -575,6 +575,7 @@ img {
     padding-bottom: 122px;
   }
   .hero__container {
+    padding: 0 98px;
     background-image: url("../images/hero-t-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -583,7 +584,6 @@ img {
     justify-content: center;
     align-items: center;
     padding-top: 137px;
-    padding: 0 98px;
   }
   .hero__heading {
     width: 573px;
@@ -591,7 +591,7 @@ img {
     margin-bottom: 24px;
     text-align: center;
   }
-  .hero__desc {
+  .hero__paragraph {
     width: 573px;
     margin: 0;
     text-align: center;
@@ -629,7 +629,7 @@ img {
     letter-spacing: -1.78571px;
     color: #FFFFFF;
   }
-  .hero__desc {
+  .hero__paragraph {
     width: 311px;
     margin: 0;
     text-align: center;
@@ -644,5 +644,114 @@ img {
   .hero__button {
     display: block;
     margin: 0;
+  }
+}
+.information {
+  padding-bottom: 145px;
+}
+.information__container {
+  padding: 0 165px;
+  background-image: url("../images/line-divider.png");
+  background-repeat: no-repeat;
+  background-position: top 50px left;
+}
+.information__list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.information__item {
+  width: 350px;
+}
+.information__item + .information__item {
+  margin-left: 30px;
+}
+.information__img {
+  margin-bottom: 40px;
+}
+.information__heading {
+  margin: 0;
+  margin-bottom: 27px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -1.07143px;
+  color: #495567;
+}
+.information__desc {
+  margin: 0;
+  font-family: "LexendDeca";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939CAA;
+}
+
+@media only screen and (max-width: 930px) {
+  .information {
+    padding-bottom: 145px;
+  }
+  .information__container {
+    padding: 0 98px;
+    background-image: none;
+  }
+  .information__list {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .information__item {
+    display: flex;
+    width: 573px;
+    margin-bottom: 40px;
+  }
+  .information__item + .information__item {
+    margin-left: 0px;
+  }
+  .information__item-wrapper {
+    margin-left: 79px;
+  }
+
+  .information__item-one {
+    margin-bottom: 0;
+  }
+}
+@media only screen and (max-width: 680px) {
+  .information {
+    padding-bottom: 120px;
+  }
+  .information__container {
+    padding: 0 32px;
+  }
+  .information__list {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .information__item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 311px;
+    margin-bottom: 48px;
+  }
+  .information__box {
+    margin-left: 0px;
+  }
+  .information__icons {
+    margin-bottom: 24px;
+  }
+  .information__heading {
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  .information__desc {
+    text-align: center;
+  }
+
+  .information__item-one {
+    margin-bottom: 0;
   }
 }/*# sourceMappingURL=main.css.map */

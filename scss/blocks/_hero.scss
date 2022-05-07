@@ -1,12 +1,11 @@
-// hero
 .hero {
     padding-bottom: 160px;
     &__container {
+        padding: 0 165px;
         background-image: url("../images/hero-Bg.png");
         background-repeat: no-repeat;
         background-size: cover;
         padding-top: 153px;
-        padding: 0 165px;
     }
     &__heading {
         width: 500px;
@@ -18,7 +17,7 @@
         letter-spacing: -2.5px;
         color: #FFFFFF;
     }
-    &__desc {
+    &__paragraph {
         width: 405px;
         margin: 0;
         margin-left: 90px;
@@ -31,11 +30,11 @@
         color: #FFFFFF;
     }
 }
-.hero__button {
+.hero__button{
     margin-bottom: 152px;
     margin-left: 90px;
 }
-.hero__button:hover {
+.hero__button:hover{
     background-color:transparent;
     padding: 14px 39px;
     font-weight: 700;
@@ -51,7 +50,8 @@
 @media only screen and (max-width:930px) {
     .hero {
     padding-bottom: 122px;
-        &__container { 
+        &__container {
+            padding: 0 98px;
             background-image: url("../images/hero-t-bg.png");
             background-repeat: no-repeat;
             background-size: cover;
@@ -60,7 +60,6 @@
             justify-content: center;
             align-items: center;
             padding-top: 137px;
-            padding: 0 98px;
         }
         &__heading {
             width: 573px;
@@ -68,7 +67,7 @@
             margin-bottom: 24px;
             text-align: center;
         }
-        &__desc {
+        &__paragraph {
             width: 573px;
             margin: 0;
             text-align: center;
@@ -82,7 +81,7 @@
 
 }
 
-
+/////MOBILE QISMI
 @media only screen and (max-width:680px) {
     .hero {
         padding-bottom: 120px;
@@ -109,7 +108,7 @@
             letter-spacing: -1.78571px;
             color: #FFFFFF;
         }
-        &__desc {
+        &__paragraph {
             width: 311px;
             margin: 0;
             text-align: center;
