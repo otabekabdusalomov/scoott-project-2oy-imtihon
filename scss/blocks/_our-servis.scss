@@ -1,0 +1,117 @@
+.our-servis {
+    padding-bottom: 200px;
+    &__container{
+        max-width: 1146px;
+    }
+    &__list {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    &__box {
+        width: 445px;
+    }
+    &__item {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+    &__item + &__item {
+        margin-top: 155px;
+    }
+    &__heading {
+        margin: 0;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 48px;
+        letter-spacing: -2.14286px;
+        color: #495567;
+        margin-bottom: 40px;
+    }
+    &__desc {
+        margin: 0;
+        font-family: 'LexendDeca';
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        color: #939CAA;
+        margin-bottom: 40px;
+    }
+}
+@media only screen and (max-width:930px) {
+    .our-servis {
+        padding-bottom: 104px;
+        &__box {
+            width: 573px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 56px;
+        }
+        &__item:nth-child(even) {
+            flex-direction: column-reverse;
+        }
+        
+        &__item:nth-child(odd) {
+            flex-direction: column-reverse;
+        }
+        &__heading {
+            width: 457px;
+            text-align: center;
+        }
+        &__desc {
+            text-align: center;
+        }
+        &__item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .our-servis__button {
+            margin:0;
+        }
+    }
+    
+}
+
+@media only screen and (max-width:680px) {
+    .our-servis {
+        padding-bottom: 120px;
+        &__container {
+            padding: 0 32px;
+        }
+        &__box{
+            width: 311px;
+        }
+        &__item + &__item {
+            margin-top: 120px;
+        }
+        &__heading {
+            width: 311px;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 32px;
+            text-align: center;
+            letter-spacing: -1.42857px;
+            color: #495567;
+            margin-bottom: 32px;
+        }
+        &__desc {
+            margin-bottom: 32px;
+        }
+        &__image {
+            width: 311px;
+            height: 311px;
+            margin-bottom: 56px;
+        }
+        .our-servis__button {
+            display: block;
+            padding: 14px 43px;
+            margin:0;
+        }
+    }
+}

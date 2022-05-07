@@ -66,10 +66,10 @@
             margin-left: 79px;
         }
     }
-.information__item-one {
-    margin-bottom: 0;
-}
-
+    .information__item--second {
+        margin-bottom: 0;
+    }
+    
 }
 
 @media only screen and (max-width:680px) {
@@ -104,8 +104,8 @@
             text-align: center;
         }
     }
-    .information__item-one{
+    .information__item--second{
         margin-bottom: 0;
     }
-
+    
 }

@@ -714,7 +714,7 @@ img {
     margin-left: 79px;
   }
 
-  .information__item-one {
+  .information__item--second {
     margin-bottom: 0;
   }
 }
@@ -751,7 +751,122 @@ img {
     text-align: center;
   }
 
-  .information__item-one {
+  .information__item--second {
     margin-bottom: 0;
+  }
+}
+.our-servis {
+  padding-bottom: 200px;
+}
+.our-servis__container {
+  max-width: 1146px;
+}
+.our-servis__list {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.our-servis__box {
+  width: 445px;
+}
+.our-servis__item {
+  display: flex;
+  justify-content: space-between;
+}
+.our-servis__item:nth-child(even) {
+  flex-direction: row-reverse;
+}
+.our-servis__item + .our-servis__item {
+  margin-top: 155px;
+}
+.our-servis__heading {
+  margin: 0;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: #495567;
+  margin-bottom: 40px;
+}
+.our-servis__desc {
+  margin: 0;
+  font-family: "LexendDeca";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939CAA;
+  margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 930px) {
+  .our-servis {
+    padding-bottom: 104px;
+  }
+  .our-servis__box {
+    width: 573px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 56px;
+  }
+  .our-servis__item:nth-child(even) {
+    flex-direction: column-reverse;
+  }
+  .our-servis__item:nth-child(odd) {
+    flex-direction: column-reverse;
+  }
+  .our-servis__heading {
+    width: 457px;
+    text-align: center;
+  }
+  .our-servis__desc {
+    text-align: center;
+  }
+  .our-servis__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .our-servis .our-servis__button {
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 680px) {
+  .our-servis {
+    padding-bottom: 120px;
+  }
+  .our-servis__container {
+    padding: 0 32px;
+  }
+  .our-servis__box {
+    width: 311px;
+  }
+  .our-servis__item + .our-servis__item {
+    margin-top: 120px;
+  }
+  .our-servis__heading {
+    width: 311px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -1.42857px;
+    color: #495567;
+    margin-bottom: 32px;
+  }
+  .our-servis__desc {
+    margin-bottom: 32px;
+  }
+  .our-servis__image {
+    width: 311px;
+    height: 311px;
+    margin-bottom: 56px;
+  }
+  .our-servis .our-servis__button {
+    display: block;
+    padding: 14px 43px;
+    margin: 0;
   }
 }/*# sourceMappingURL=main.css.map */
