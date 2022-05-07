@@ -1,1 +1,69 @@
-//BU YERDA SAYTIMIZNING HEADER QISMIGA ISHLOV BERILADI
+// header
+.header {
+    &__container {
+        display: flex;
+        padding-left: 167px;
+        padding-right: 167px;
+        padding-top: 22px;
+        align-items: center;
+        white-space: nowrap;
+        padding-bottom: 21px;
+    }
+    &__link {
+        text-decoration: none;
+        flex-shrink: 0;
+    }
+    &__link:hover {
+        opacity: 0.8;
+        &:active {
+            opacity: 0.5;
+        }
+    }
+    &__riseption {
+        display: none;
+        border: none;
+        background-color: transparent;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width:930px) {
+    .header {
+        &__container {
+            display: flex;
+            padding-top: 22px;
+            padding-left: 40px;
+            padding-right: 40px;
+            align-items: center;
+            padding-bottom: 21px;
+        }
+        &__riseption {
+            display: none;
+        }
+}
+}
+
+@media only screen and (max-width:680px) {
+    .header {
+        padding-top: 22px;
+        padding-bottom: 22px;
+        position: relative;
+        &__container {
+            display: flex;
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+        &__link {
+            margin-left: auto;
+            margin-right: auto;
+            width: 76px;
+            height: 25px;
+        }
+        &__riseption {
+            display: inline-block;
+            order: -1;
+            cursor: pointer;
+        }
+    }
+}

@@ -1,1 +1,128 @@
-//BU YERDA SYTIMIZNI HERO QISMIGA ISHLOV BERILADI
+// hero
+.hero {
+    padding-bottom: 160px;
+    &__container {
+        background-image: url("../images/hero-Bg.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 153px;
+        padding: 0 165px;
+    }
+    &__heading {
+        width: 500px;
+        margin: 0;
+        margin-bottom: 40px;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 56px;
+        letter-spacing: -2.5px;
+        color: #FFFFFF;
+    }
+    &__desc {
+        width: 405px;
+        margin: 0;
+        margin-left: 90px;
+        margin-bottom: 40px;
+        font-family: 'LexendDeca';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        color: #FFFFFF;
+    }
+}
+.hero__button {
+    margin-bottom: 152px;
+    margin-left: 90px;
+}
+.hero__button:hover {
+    background-color:transparent;
+    padding: 14px 39px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    cursor: pointer;
+    border: solid #FCB72B 3px;
+}
+
+
+
+@media only screen and (max-width:930px) {
+    .hero {
+    padding-bottom: 122px;
+        &__container { 
+            background-image: url("../images/hero-t-bg.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding-top: 137px;
+            padding: 0 98px;
+        }
+        &__heading {
+            width: 573px;
+            margin: 0;
+            margin-bottom: 24px;
+            text-align: center;
+        }
+        &__desc {
+            width: 573px;
+            margin: 0;
+            text-align: center;
+            margin-bottom: 32px;
+        }
+    }
+.hero__button {
+    margin: 0;
+    margin-bottom: 217px;
+    }
+
+}
+
+
+@media only screen and (max-width:680px) {
+    .hero {
+        padding-bottom: 120px;
+
+        &__container {
+            padding: 115px 32px 179px 32px;
+            background-image: url("../images/hero-m-bg.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        &__heading {
+            width: 311px;
+            margin: 0;
+            margin-bottom: 24px;
+            text-align: center;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 40px;
+            text-align: center;
+            letter-spacing: -1.78571px;
+            color: #FFFFFF;
+        }
+        &__desc {
+            width: 311px;
+            margin: 0;
+            text-align: center;
+            margin-bottom: 34px;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+    }
+    .hero__button {
+        display: block;
+        margin: 0;
+        }
+}

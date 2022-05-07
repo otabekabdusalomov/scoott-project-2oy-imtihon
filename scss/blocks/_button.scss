@@ -1,1 +1,31 @@
-//BU YERDA BUTTONLAR YASHAYDI
+// button
+.button{
+    margin-left: auto;
+    background-color: #FCB72B;
+    padding: 14px 39px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: solid #FCB72B 3px;
+    &:hover {
+        background-color: white;
+        color: #FCB72B;
+        border: solid #FCB72B 3px;
+        transition: 0.2s;
+    }
+    &:active {
+        background-color: white;
+        color: #FCB72B;
+        border: solid #FCB72B 3px;
+        transition: 0.2s;
+    }
+}
+
+@media only screen and (max-width:680px) {
+    .button {
+        display: none;
+    }
+}

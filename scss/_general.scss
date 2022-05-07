@@ -1,7 +1,7 @@
-//BU YERDA BIZNING UMUMIY CSS LARIMIZ YASHAYDI
+
 html {
-    height: 100%;  //STICKY FOOTER UCHUN 100% HEIGHT BERILIB KETILYAPTI
-    scroll-behavior: smooth; //STICKY FOOTER UCHUN SMOOTH HEIGHT BERILIB KETILYAPTI
+    height: 100%; 
+    scroll-behavior: smooth; 
     box-sizing: border-box;
 }
 
@@ -14,8 +14,8 @@ html {
 body {
     display: flex;
     flex-direction: column;
-    height: 100%; //STICKY FOOTER UCHUN 100% HEIGHT BERILIB KETILYAPTI
-    font-family: "Arial", sans-serif;
+    height: 100%;
+    font-family:"SpaceMono";
     font-size: 16px;
     line-height: 1.5;
 }

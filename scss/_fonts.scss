@@ -1,1 +1,20 @@
-//BU YERDA BIZNING FONTLAR YASHAYDI
+// fonts
+@font-face {
+    font-family:"SpaceMono";
+    src: url("../fonts/SpaceMono-Bold.ttf"),
+         url("../fonts/SpaceMono-Bold.woff"),
+         url("../fonts/SpaceMono-Bold.woff2");
+    font-weight: 700;
+}
+@font-face {
+    font-family:"SpaceMono";
+    src: url("../fonts/SpaceMono-Regular.ttf"),
+         url("../fonts/SpaceMono-Regular.woff"),
+         url("../fonts/SpaceMono-Regular.woff2");
+}
+@font-face {
+    font-family:"LexendDeca";
+    src: url("../fonts/LexendDeca-Regular.ttf"),
+         url("../fonts/LexendDeca-Regular.woff"),
+         url("../fonts/LexendDeca-Regular.woff2");
+}
