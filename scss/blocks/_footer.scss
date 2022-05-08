@@ -1,1 +1,63 @@
-//BU YERDA SYTIMIZNING FOOTER QISMIGA ISHLOV BERILADI
+.footer {
+    padding: 35px;
+    background-color: #333A44;
+  
+    &__container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 5px;
+        max-width: 1146px;
+    }  
+    &__logo{
+        flex-shrink: 0;
+    }
+    &__list{
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+    } 
+    &__list-item + &__list-item{
+       margin-left: 24px;
+    }
+    &__list-link{
+        transition: 0.3s;
+    }
+    &__list-link:hover{
+        opacity: 0.4;
+    }
+    &__list-link:active{
+        opacity: 0.8;
+    }
+   
+}
+.footer-nav{
+   margin-right: auto;
+    
+    right: auto;
+    &__list{
+        display: flex;
+        align-items: center;
+        list-style: none;
+
+        
+    }
+    
+    &__item + &__item {
+        padding-left: 32px;
+    }
+    &__link{
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 25px;
+        color: #939CAA;
+        text-decoration: none; 
+        transition: 0.3s;
+    }
+    &__link:hover{
+        opacity: 0.8;
+    }
+    &__link:active{
+        opacity: 0.4;
+    }
+}
